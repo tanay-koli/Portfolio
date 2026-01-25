@@ -1,6 +1,41 @@
 export const myProjects = [
   {
     id: 1,
+    title: "F1 Replay System",
+    description:
+      "Built an interactive Formula 1 race replay and telemetry visualization system in Python using FastF1 and Arcade, integrating real race data to visually simulate race sessions while displaying detailed telemetry such as speed traces, lap times, sector performance, and driver movements on track.",
+    subDescription: [
+      "Built a Python-based Formula 1 race replay and telemetry visualization system using FastF1 and Arcade."
+    
+    ],
+    href: "https://github.com/tanay-koli/F1RaceReplay",
+    logo: "",
+    image: "/assets/projects/F1Replay.png",
+    tags: [
+      {
+        id: 1,
+        name: "Arcade",
+        path: "/assets/logos/arcade.webp",
+      },
+      {
+        id: 2,
+        name: "FastF1",
+        path: "/assets/logos/fastf1.png",
+      },
+      {
+        id: 3,
+        name: "Pandas",
+        path: "/assets/logos/pandas.svg",
+      },
+      {
+        id: 4,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Sound Generation using Neural Networks",
     description:
       "Developed a deep learning system that generates realistic audio by learning latent representations of sound using Variational Autoencoders (VAEs), focusing on balancing audio quality and computational efficiency.",
@@ -35,7 +70,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "A Multi-Modal Fusion Approach for Passive Bot Detection",
     description:
       "Developed a multi-modal detection framework combining mouse dynamics, web server log analysis, and honeypot interactions for non-intrusive bot identification.",
@@ -71,7 +106,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Resume Analyzer – AI-Powered HR Tech",
     description:
       "Developed an AI-driven web application that automates resume screening by analyzing candidate profiles against job descriptions, helping recruiters make faster and more informed shortlisting decisions.",
@@ -108,7 +143,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "GIT GREENER – Sustainable Code Optimizer",
     description:
       "Developed a repository analysis engine to scan codebases and identify performance bottlenecks and inefficient patterns.",
@@ -231,12 +266,12 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "SVKM’s NMIMS, Kharghar",
-    job: "",
-    date: "August 2022 - Present",
+    title: "KPMG",
+    job: "TE-SAP Intern",
+    date: "January 2026 - Present",
     contents: [
-      "Bachelor of Technology in Artificial Intelligence and Data Science",
-      "CGPA: 3.89/4.00 (Till 6th Semester)"      
+      " CBSE, Xth Grade",
+      " Grade: 96.4%"
     ],
   },
   {
@@ -246,6 +281,15 @@ export const experiences = [
     contents: [
       "Co-Founder",
       "Curate high-impact content across multiple social platforms, and maintain robust brand presence that drives audience engagement and community growth."
+    ],
+  },
+  {
+    title: "SVKM’s NMIMS, Kharghar",
+    job: "",
+    date: "August 2022 - Present",
+    contents: [
+      "Bachelor of Technology in Artificial Intelligence and Data Science",
+      "CGPA: 3.89/4.00 (Till 6th Semester)"      
     ],
   },
   {
@@ -262,19 +306,12 @@ export const experiences = [
     job: "",
     date: "June 2022",
     contents: [
-      " CBSE, XIIth Grade ",
-      " Grade: 90.02% "
+      " CBSE, XIIth Grade: 90.02%",
+      " CBSE, Xth Grade: 96.4%",
+      
     ],
   },
-  {
-    title: "DAV Public School, Nerul",
-    job: "",
-    date: "March 2020",
-    contents: [
-      " CBSE, Xth Grade",
-      " Grade: 96.4%"
-    ],
-  },
+  
 ];
 /* export const reviews = [
   {
