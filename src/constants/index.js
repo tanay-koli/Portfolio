@@ -267,11 +267,11 @@ export const mySocials = [
 export const experiences = [
   {
     title: "KPMG",
-    job: "TE-SAP Intern",
+    job: "Mumbai",
     date: "January 2026 - Present",
     contents: [
-      " CBSE, Xth Grade",
-      " Grade: 96.4%"
+      " TE-SAP Intern",
+      " Creating interactive dashboards and visual reports using SAP to analyze complex datasets and deliver clear, actionable business insights that support informed decision-making."
     ],
   },
   {
